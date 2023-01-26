@@ -3,10 +3,10 @@
   "short_name": "ExerciseRx-CP",
   "theme_color": "#683CAE",
   "background_color": "#FAFAFA",
-  "display": "minimal-ui",
+  "display": "standalone",
   "orientation": "portrait",
   "Scope": "./",
-  "start_url": "./",
+  "start_url": "./?standalone=true",
   "icons": [
     {
       "src": "img/exerciserx_logo.png",
