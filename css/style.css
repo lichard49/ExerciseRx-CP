@@ -1,0 +1,12 @@
+#footer {
+  display: inline;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+.footer-tab {
+  float: left;
+  width: 33.33%;
+  text-align: center;
+}
