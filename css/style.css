@@ -1,12 +1,24 @@
+body {
+  font-family: 'Inter';
+  font-style: normal;
+  background-color: #EAEAEA;
+}
+
 #footer {
-  display: inline;
+  display: flex;
+  align-items: center;
   width: 100%;
+  height: 120px;
   position: fixed;
+  left: 0;
   bottom: 0;
+  background-color: #FFFFFF;
+  border-top: 1px solid #ABABAB;
 }
 
 .footer-tab {
   float: left;
   width: 33.33%;
   text-align: center;
+  color: #666666;
 }

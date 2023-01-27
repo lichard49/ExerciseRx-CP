@@ -6,9 +6,18 @@ class FooterTabs extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
     <div id="footer">
-      <div class="footer-tab">Home</div>
-      <div class="footer-tab">Exercise</div>
-      <div class="footer-tab">Progress</div>
+      <div class="footer-tab">
+        <img src="img/footer_tab_home.png">
+        <p>Home</p>
+      </div>
+      <div class="footer-tab">
+        <img src="img/footer_tab_exercise.png">
+        <p>Exercise</p>
+      </div>
+      <div class="footer-tab">
+        <img src="img/footer_tab_progress.png">
+        <p>Progress</p>
+      </div>
     </div>
     `;
   }
