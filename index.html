@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <h1>TEST</h1>
     <meta name="viewport"
       content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <meta name="mobile-web-app-capable" content="yes">
@@ -18,9 +17,19 @@
   </head>
 
   <body>
-    <h1>ExerciseRx</h1>
-    <footer-tabs></footer-tabs>
-  
+    <!--Home Page Code-->
+    <div class="flex_container_greeting">
+      <div class="large_font" id="greeting">Hi, Adeline!</div>
+      <div class="small_font" id="small_greeting">Let's get moving with personalized exercises.</div>
+    </div>
+    <div class="flex_container_daily_exercise"> 
+      <img src="img\purple_running_icon.png" alt="running icon" width="89.6px" height="108.64px" id="purple_runner">
+      <div class="large_font" id="exercise_num">3/5</div>
+      <div class="small_font" id="small_font">today's exercises completed</div>
+      <img src="img\purple_linear_progress_bar.png" alt="progress bar" width="616.06px" height="24px" id="today_exercise_prog_bar">
+    </div>
+
+    <!--<footer-tabs></footer-tabs>-->
     <script src="./js/script.js"></script>
     <script>
       if ('serviceWorker' in navigator) {
