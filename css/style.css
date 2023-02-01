@@ -1,4 +1,4 @@
-/*overall styling */ 
+/*overall styling. Should work for the Samsung tab a8; 1920 x 1200px */ 
 .large_font{
   font-family: 'Inter';
   font-style: normal;
@@ -8,6 +8,7 @@
   letter-spacing: 0.3px;
   color: #212121;
 }
+
 .small_font{
 font-family: 'Inter';
 font-style: normal;
@@ -52,7 +53,7 @@ color: #666666;
   height: 224px;
   margin-left: 64px;
   margin-right: 64px; 
-  margin-top: 263px;
+  margin-top: 90px;
   background-color: white;
   opacity: 0.99;
   border: 1px solid #EFEFF0;
@@ -82,6 +83,217 @@ color: #666666;
   margin-top: -20px;
 
 }
+
+/* styling for "Weekly Report" title/header section*/
+.flex_container_title{
+  display: flex; 
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: nowrap; 
+  width: 1892px;
+  height: 55px;
+  margin-left: 64px;
+  margin-right: 64px;
+  margin-top: 48px;
+}
+
+#weekly_report{
+  width: 329px;
+  height: 55px;
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 120%;
+}
+
+#see_more{
+  width: 120px;
+  height: 39px;
+  font-size: 26px;
+  line-height: 150%;
+  margin-left: 559px;
+  margin-top: 8px;
+}
+
+#arrowButton{
+  margin-top: 17.47px;
+  margin-left: 21.9px;
+}
+
+/*Weekly Report's Progress Bars styling*/
+.flex_container_weekly_progress{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 1072px;
+  height: 369.83px;
+  margin-left: 64px;
+  margin-top: 48px;
+  background: #FFFFFF;
+  border: 1px solid #EFEFF0;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 32px;
+}
+
+#date_week{
+  width: 236px;
+  height: 48px;
+  margin-left: 418px;
+  margin-top: 40px;
+  margin-right: 418px;
+}
+
+/*sub styling; for the 7 daily, circular, progress bars
+Keeping each day sepearte so that it's easier to edit each indivual one later on*/
+#monday_prog{
+  margin-left: 32px;
+  margin-top: -40px;
+}
+
+#tuesday_prog{
+  margin-left: 37.33px;
+  margin-top: -40px;
+}
+
+#wednesday_prog{
+  margin-left: 37.33px;
+  margin-top: -40px;
+}
+
+#thursday_prog{
+  margin-left: 37.33px;
+  margin-top: -40px;
+}
+
+#friday_prog{
+  margin-left: 37.33px;
+  margin-top: -40px;
+}
+
+#saturday_prog{
+  margin-left: 37.33px;
+  margin-top: -40px;
+}
+
+#sunday_prog{
+  margin-left: 37.33px;
+  margin-top: -40px;
+}
+
+/*this part is for the text*/
+#Mon{
+  width: 29px;
+  height: 48px;
+  margin-top: -10px;
+  margin-left: 73.5px;
+}
+
+#Tue{
+  width: 29px;
+  height: 48px;
+  margin-top: -10px;
+  margin-left: 124.33px;
+}
+
+#Wed{
+  width: 29px;
+  height: 48px;
+  margin-top: -10px;
+  margin-left: 124.33px;
+}
+
+#Thur{
+  width: 29px;
+  height: 48px;
+  margin-top: -10px;
+  margin-left: 124.33px;
+}
+
+#Fri{
+  width: 29px;
+  height: 48px;
+  margin-top: -10px;
+  margin-left: 124.33px;
+}
+
+#Sat{
+  width: 29px;
+  height: 48px;
+  margin-top: -10px;
+  margin-left: 124.33px;
+}
+
+#Sun{
+  width: 29px;
+  height: 48px;
+  margin-top: -10px;
+  margin-left: 124.33px;
+}
+
+/*styling for "days completed" section*/
+.flex_container_days_completed{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 516px;
+  height: 376px;
+  margin-left: 64px;
+  margin-top: 40.17px;
+  background: #FFFFFF;
+  border: 1px solid #EFEFF0;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 32px;
+}
+
+#calendar_icon{
+  margin-top: 43.67px;
+  margin-left: 211.33px;
+}
+
+#days_completed_text{
+  width: 246px;
+  height: 96px;
+  margin-top: 45px;
+  margin-left: 185px;
+}
+
+#days_completed_small_text{
+  width:246px;
+  height: 48px;
+  margin-top: 22px;
+  margin-left: 135px;
+}
+
+/*styling for the movement box (shares code from "days completed" section)*/
+#movement_box{
+  margin-top: -380px;
+  margin-left: 620px;
+}
+#movement_min_small_text{
+  width: 293px;
+  height: 48px;
+  margin-top: 8px;
+  margin-left: 128px;
+}
+
+/*primary button*/
+#primary_button{
+  width: 640px;
+  height: 80px;
+  background: #683CAE;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.3);
+  border-radius: 48px;
+  margin-left: 280px; 
+  margin-top: 196px;
+  margin-bottom: 32px;
+  color: #FFFFFF;
+  }
+
+#font_adjust{
+  margin-top: 10px;
+}
+
 
 /*other styling*/
 body {

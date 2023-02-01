@@ -28,7 +28,47 @@
       <div class="small_font" id="small_font">today's exercises completed</div>
       <img src="img\purple_linear_progress_bar.png" alt="progress bar" width="616.06px" height="24px" id="today_exercise_prog_bar">
     </div>
-
+    <div class="flex_container_title">
+      <div class="large_font" id="weekly_report">Weekly Report</div>
+      <div class="small_font" id="see_more"> see more </div>
+      <a href="tbd.html"><img src="img\Vectorgray_arrow.png" width="20.77px" height="20.25px" id="arrowButton"></a>
+    </div>
+    <div class="flex_container_weekly_progress">
+      <div class="small_font" id="date_week">January 15 - 21</div>
+      <!--the following are for the progress bar images-->
+      <img id="monday_prog" src="img\Circular_Progress_Purple_Empty.png" width="112px" height="112px">
+      <img id="tuesday_prog" src="img\Circular_Progress_Purple_Empty.png" width="112px" height="112px">
+      <!--the next three are repeated to show the "progress" completed (this currently doesn't work, will fix later)
+      <img id="tuesday_prog" src="img\Circular_Progress_Purple_3_4.png" width="112px" height="112px">
+      <img id="wednesday_prog" src="img\Circular_Progress_Purple_3_4.png" width="112px" height="112px">
+      <img id="thursday_prog" src="img\Circular_Progress_Purple_full.png" width="112px" height="112px">
+      -->
+      <img id="wednesday_prog" src="img\Circular_Progress_Purple_Empty.png" width="112px" height="112px">
+      <img id="thursday_prog" src="img\Circular_Progress_Purple_Empty.png" width="112px" height="112px">
+      <img id="friday_prog" src="img\Circular_Progress_Purple_Empty.png" width="112px" height="112px">
+      <img id="saturday_prog" src="img\Circular_Progress_Purple_Empty.png" width="112px" height="112px">
+      <img id="sunday_prog" src="img\Circular_Progress_Purple_Empty.png" width="112px" height="112px">
+      <!--the following are for the respective day for the progress bars-->
+      <div class="small_font" id="Mon">M</div>
+      <div class="small_font" id="Tue">T</div>
+      <div class="small_font" id="Wed">W</div>
+      <div class="small_font" id="Thur">T</div>
+      <div class="small_font" id="Fri">F</div>
+      <div class="small_font" id="Sat">S</div>
+      <div class="small_font" id="Sun">S</div>
+    </div>
+    <div class="flex_container_days_completed">
+      <img id="calendar_icon" src="img\purple_calendar_icon.png" width="93.33px" height="86.33px">
+      <div class="large_font" id="days_completed_text"> 1/5 </div>
+      <div class="small_font" id="days_completed_small_text"> days completed </div>
+    </div>
+    <div class="flex_container_days_completed" id="movement_box">
+      <img id="calendar_icon" src="img\purple_stopwatch_icon.png" width="84px" height="102.67px">
+      <div class="large_font" id="days_completed_text"> 35 </div>
+      <div class="small_font" id="movement_min_small_text"> movement minutes </div>
+    </div>
+      <button class="small_font" id="primary_button" onclick="newPage()"><p id="font_adjust">Start Exercise Plan</p></button>
+    </div>
     <!--<footer-tabs></footer-tabs>-->
     <script src="./js/script.js"></script>
     <script>
