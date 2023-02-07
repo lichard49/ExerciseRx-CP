@@ -1,5 +1,5 @@
-/*overall styling. Should work for the Samsung tab a8; 1920 x 1200px */ 
-.large_font{
+/* overall styling. Should work for the Samsung tab a8; 1920 x 1200px */
+.large_font {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 500;
@@ -9,7 +9,7 @@
   color: #212121;
 }
 
-.small_font{
+.small_font {
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
@@ -19,8 +19,8 @@ letter-spacing: 0.3px;
 color: #666666;
 }
 
-/*styling for greeting for homepage*/
-.flex_container_greeting{
+/* styling for greeting for homepage */
+.flex_container_greeting {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -32,19 +32,19 @@ color: #666666;
   margin-top: 58px;
 }
 
-#greeting{
+#greeting {
   font-weight: 700;
   font-size: 66px;
   line-height: 120%;
 }
 
-#small_greeting{
+#small_greeting {
   width: 1072px;
   height: 48px;
 }
 
-/*styling for #of exercise completed for the day*/
-.flex_container_daily_exercise{
+/* styling for #of exercise completed for the day */
+.flex_container_daily_exercise {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -61,31 +61,31 @@ color: #666666;
   border-radius: 32px;
 }
 
-#purple_runner{
+#purple_runner {
   margin-top:  57.12px;
   margin-left: 51.2px;
 }
 
-#exercise_num{
+#exercise_num {
   width: 158px;
   height: 96px;
   margin-left: 64px;
   margin-top: 57.12px;
 }
 
-#small_font{
+#small_font {
   margin-left: 32px;
   margin-top: 96px;
 }
 
-#today_exercise_prog_bar{
+#today_exercise_prog_bar {
   margin-left: 208px;
   margin-top: -20px;
 
 }
 
 /* styling for "Weekly Report" title/header section*/
-.flex_container_title{
+.flex_container_title {
   display: flex; 
   flex-direction: row;
   justify-content: flex-start;
@@ -97,7 +97,7 @@ color: #666666;
   margin-top: 48px;
 }
 
-#weekly_report{
+#weekly_report {
   width: 329px;
   height: 55px;
   font-weight: 600;
@@ -105,7 +105,7 @@ color: #666666;
   line-height: 120%;
 }
 
-#see_more{
+#see_more {
   width: 120px;
   height: 39px;
   font-size: 26px;
@@ -114,13 +114,13 @@ color: #666666;
   margin-top: 8px;
 }
 
-#arrowButton{
+#arrowButton {
   margin-top: 17.47px;
   margin-left: 21.9px;
 }
 
 /*Weekly Report's Progress Bars styling*/
-.flex_container_weekly_progress{
+.flex_container_weekly_progress {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -135,7 +135,7 @@ color: #666666;
   border-radius: 32px;
 }
 
-#date_week{
+#date_week {
   width: 236px;
   height: 48px;
   margin-left: 418px;
@@ -143,99 +143,100 @@ color: #666666;
   margin-right: 418px;
 }
 
-/*sub styling; for the 7 daily, circular, progress bars
-Keeping each day sepearte so that it's easier to edit each indivual one later on*/
-#monday_prog{
+/* sub styling; for the 7 daily, circular, progress bars
+Keeping each day separate so that it's easier to edit each individual one later on */
+#monday_prog {
   margin-left: 32px;
   margin-top: -40px;
 }
 
-#tuesday_prog{
+#tuesday_prog {
   margin-left: 37.33px;
   margin-top: -40px;
 }
 
-#wednesday_prog{
+#wednesday_prog {
   margin-left: 37.33px;
   margin-top: -40px;
 }
 
-#thursday_prog{
+#thursday_prog {
   margin-left: 37.33px;
   margin-top: -40px;
 }
 
-#friday_prog{
+#friday_prog {
   margin-left: 37.33px;
   margin-top: -40px;
 }
 
-#saturday_prog{
+#saturday_prog {
   margin-left: 37.33px;
   margin-top: -40px;
 }
 
-#sunday_prog{
+#sunday_prog {
   margin-left: 37.33px;
   margin-top: -40px;
 }
 
-/*this part is for the text*/
-#Mon{
+/* this part is for the text */
+#Mon {
   width: 29px;
   height: 48px;
   margin-top: -10px;
   margin-left: 73.5px;
 }
 
-#Tue{
+#Tue {
   width: 29px;
   height: 48px;
   margin-top: -10px;
   margin-left: 124.33px;
 }
 
-#Wed{
+#Wed {
   width: 29px;
   height: 48px;
   margin-top: -10px;
   margin-left: 124.33px;
 }
 
-#Thur{
+#Thur {
   width: 29px;
   height: 48px;
   margin-top: -10px;
   margin-left: 124.33px;
 }
 
-#Fri{
+#Fri {
   width: 29px;
   height: 48px;
   margin-top: -10px;
   margin-left: 124.33px;
 }
 
-#Sat{
+#Sat {
   width: 29px;
   height: 48px;
   margin-top: -10px;
   margin-left: 124.33px;
 }
 
-#Sun{
+#Sun {
   width: 29px;
   height: 48px;
   margin-top: -10px;
   margin-left: 124.33px;
 }
 
-/*styling for "days completed" section*/
-.flex_container_days_completed{
+/* styling for "days completed" section */
+.flex_container_days_completed {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: center;
+  align-items: center;
   width: 516px;
   height: 376px;
   margin-left: 64px;
@@ -246,39 +247,33 @@ Keeping each day sepearte so that it's easier to edit each indivual one later on
   border-radius: 32px;
 }
 
-#calendar_icon{
+#calendar_icon {
   margin-top: 43.67px;
-  margin-left: 211.33px;
 }
 
-#days_completed_text{
-  width: 246px;
+#days_completed_text {
   height: 96px;
   margin-top: 45px;
-  margin-left: 185px;
 }
 
-#days_completed_small_text{
-  width:246px;
+#days_completed_small_text {
   height: 48px;
   margin-top: 22px;
-  margin-left: 135px;
 }
 
-/*styling for the movement box (shares code from "days completed" section)*/
-#movement_box{
+/* styling for the movement box (shares code from "days completed" section) */
+#movement_box {
   margin-top: -380px;
   margin-left: 620px;
 }
-#movement_min_small_text{
-  width: 293px;
+
+#movement_min_small_text {
   height: 48px;
   margin-top: 8px;
-  margin-left: 128px;
 }
 
-/*primary button*/
-#primary_button{
+/* primary button */
+#primary_button {
   width: 640px;
   height: 80px;
   background: #683CAE;
@@ -290,16 +285,26 @@ Keeping each day sepearte so that it's easier to edit each indivual one later on
   color: #FFFFFF;
   }
 
-#font_adjust{
+#font_adjust {
   margin-top: 10px;
 }
 
+html {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
 
-/*other styling*/
+/* other styling */
 body {
   font-family: 'Inter';
   font-style: normal;
   background-color: #FAFAFA;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
 }
 
 #footer {
@@ -318,6 +323,14 @@ body {
   float: left;
   width: 33.33%;
   text-align: center;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 39px;
+  letter-spacing: 0.30000001192092896px;
   color: #666666;
 }
 
+.footer-tab > p {
+  margin: 0;
+  padding: 0;
+}
