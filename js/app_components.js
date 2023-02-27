@@ -23,9 +23,4 @@ class FooterTabs extends HTMLElement {
   }
 }
 
-//Used for Buttons
-function newPage(){
-  window.location.href = "tbd.html";
-}
-
 customElements.define('footer-tabs', FooterTabs);

@@ -10,13 +10,13 @@
 }
 
 .small_font {
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 32px;
-line-height: 150%;
-letter-spacing: 0.3px;
-color: #666666;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+  letter-spacing: 0.3px;
+  color: #666666;
 }
 
 /* styling for greeting for homepage */
@@ -84,7 +84,7 @@ color: #666666;
 
 }
 
-/* styling for "Weekly Report" title/header section*/
+/* styling for "Weekly Report" title/header section */
 .flex_container_title {
   display: flex; 
   flex-direction: row;
@@ -119,7 +119,7 @@ color: #666666;
   margin-left: 21.9px;
 }
 
-/*Weekly Report's Progress Bars styling*/
+/* Weekly Report's Progress Bars styling */
 .flex_container_weekly_progress {
   display: flex;
   flex-direction: row;
@@ -144,7 +144,8 @@ color: #666666;
 }
 
 /* sub styling; for the 7 daily, circular, progress bars
-Keeping each day separate so that it's easier to edit each individual one later on */
+  Keeping each day separate so that it's easier to edit each
+  individual one later on */
 #monday_prog {
   margin-left: 32px;
   margin-top: -40px;
@@ -333,4 +334,185 @@ body {
 .footer-tab > p {
   margin: 0;
   padding: 0;
+}
+
+/* PROGRESS PAGE STYLING */
+
+/* title styling */
+.flex_containter_prog_title {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 262.34;
+  height: 50px;
+  margin-left: 66.67px; 
+  margin-top: 88px;
+}
+
+#back_button_home_pg {
+  margin-top: 16.5px;
+}
+
+#progress_title {
+  margin-top: 0px;
+  margin-left: 34.67px;
+  width: 201px;
+  height: 55px;
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 120%;
+}
+
+/* Progress's "Weeks in Review" Section w/circular progress bars */
+.flex_container_prog_weeks {
+  display: flex;
+  flex-direction: row; 
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 1072px;
+  height: 335.17px;
+  margin-left: 64px;
+  margin-top: 40px;
+  background: #FFFFFF;
+  border: 1px solid #EFEFF0;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 32px;
+}
+
+#week_arrow_left {
+  background-color: white;
+  border: none;
+  width: 20.77px;
+  height: 20.25px;
+  margin-left: 37.33px;
+  margin-top: 53.87px;
+}
+
+#prev_week {
+  margin-left: 21.9px;
+  margin-top: 44.5px;
+  width: 181px;
+  height: 39px;
+  font-size: 26px;
+}
+
+#progress_week_date {
+  width: 236px;
+  height: 48px;
+  margin-left: 183px;
+  margin-top: 40px;
+}
+
+#next_week{
+  width: 129px;
+  height: 39px;
+  margin-top: 44.5px;
+  margin-left: 183px;
+  font-size: 26px;
+}
+
+#week_arrow_right {
+  background-color: white;
+  border: none;
+  width: 20.77px;
+  height: 20.25px;
+  margin-left: 21.9px;
+  margin-top: 53.87px;
+  transform: rotate(180deg);
+}
+
+/* Still Weeks in review section, now specifically code for the
+  #days completed */
+.flex_container_prog_days_completed {
+  display: flex; 
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 348px;
+  height: 144px;
+  margin-top: 45px;
+  margin-left: 64px;
+}
+
+#num_days_completed {
+  width: 142px;
+  height: 96px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 96px;
+  line-height: 100%;
+  letter-spacing: 0.3px;
+  color: #3C1E7C;
+}
+
+#num_days_completed_txt {
+  width: 348px;
+  height: 48px;
+}
+
+/* Circular Progress Bars */
+.flex_containter_circular_progress {
+ display: flex; 
+ flex-direction: row;
+ flex-wrap: wrap;
+ width: 618.01px;
+ height: 152.73px;
+ margin-top: 48px;
+ margin-left: 10px;
+}
+
+#prog_mon {
+  margin-left: 0px;
+}
+
+#prog_tue {
+  margin-left: 12.77px;
+}
+
+#prog_wed {
+  margin-left: 12.77px;
+}
+
+#prog_thur {
+  margin-left: 12.77px;
+}
+
+#prog_fri {
+  margin-left: 12.77px;
+}
+
+#prog_sat {
+  margin-left: 12.77px;
+}
+
+#prog_sun {
+  margin-left: 12.77px;
+}
+
+#prog_txt_mon {
+  margin-left: 24.17px;
+}
+
+#prog_txt_tue {
+  margin-left: 65.11px;
+}
+
+#prog_txt_wed {
+  margin-left: 65.11px;
+}
+
+#prog_txt_thur {
+  margin-left: 65.11px;
+}
+#prog_txt_fri {
+  margin-left: 65.11px;
+}
+
+#prog_txt_sat {
+  margin-left: 65.11px;
+}
+
+#prog_txt_sun {
+  margin-left: 65.11px;
 }
