@@ -10,13 +10,13 @@
 }
 
 .small_font {
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 32px;
-line-height: 150%;
-letter-spacing: 0.3px;
-color: #666666;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+  letter-spacing: 0.3px;
+  color: #666666;
 }
 
 /* styling for greeting for homepage */
@@ -84,7 +84,7 @@ color: #666666;
 
 }
 
-/* styling for "Weekly Report" title/header section*/
+/* styling for "Weekly Report" title/header section */
 .flex_container_title {
   display: flex; 
   flex-direction: row;
@@ -119,7 +119,7 @@ color: #666666;
   margin-left: 21.9px;
 }
 
-/*Weekly Report's Progress Bars styling*/
+/* Weekly Report's Progress Bars styling */
 .flex_container_weekly_progress {
   display: flex;
   flex-direction: row;
@@ -144,7 +144,8 @@ color: #666666;
 }
 
 /* sub styling; for the 7 daily, circular, progress bars
-Keeping each day separate so that it's easier to edit each individual one later on */
+  Keeping each day separate so that it's easier to edit each
+  individual one later on */
 #monday_prog {
   margin-left: 32px;
   margin-top: -40px;
@@ -335,9 +336,9 @@ body {
   padding: 0;
 }
 
-/*PROGRESS PAGE STYLING*/
+/* PROGRESS PAGE STYLING */
 
-/*title styling*/
+/* title styling */
 .flex_containter_prog_title {
   display: flex;
   flex-direction: row;
@@ -363,7 +364,7 @@ body {
   line-height: 120%;
 }
 
-/*Progress's "Weeks in Review" Section w/circular progress bars*/
+/* Progress's "Weeks in Review" Section w/circular progress bars */
 .flex_container_prog_weeks {
   display: flex;
   flex-direction: row; 
@@ -421,7 +422,8 @@ body {
   transform: rotate(180deg);
 }
 
-/*Still Weeks in review section, now specifically code for the #days completed*/
+/* Still Weeks in review section, now specifically code for the
+  #days completed */
 .flex_container_prog_days_completed {
   display: flex; 
   flex-direction: row;
@@ -449,7 +451,7 @@ body {
   height: 48px;
 }
 
-/*Circular Progress Bars*/
+/* Circular Progress Bars */
 .flex_containter_circular_progress {
  display: flex; 
  flex-direction: row;
