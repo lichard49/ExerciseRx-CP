@@ -1,83 +1,61 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta name="viewport"
-        content="width=device-width, initial-scale=0.66667, viewport-fit=cover">
-        <meta name="mobile-web-app-capable" content="yes">
-        <meta name="apple-mobile-web-app-capable" content="yes">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter" rel="stylesheet">
-        <link rel="stylesheet" href="./css/style.css">
-        <script src="./js/app_components.js"></script>
-        <title>Progress - ExerciseRx-CP</title>
-    </head>
-    <body>
-        <div class="flex_container_prog_title">
-            <a href="index.html"><img src="img\left_pointing_arrow.png" width="26.67px" height="21.99px" id="back_button_home_pg"></a>
-            <div class="large_font" id="progress_title">Progress</div>
-        </div>
+  <head>
+    <meta name="viewport"
+      content="width=device-width, initial-scale=0.66667, viewport-fit=cover">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/app_components.js"></script>
+    <title>Progress - ExerciseRx-CP</title>
+  </head>
+  <body>
+    <div class="flex_containter_prog_title">
+      <a href="index.html">
+        <img src="img/left_pointing_arrow.png" width="26.67px" height="21.99px" id="back_button_home_pg">
+      </a>
+      <div class="large_font" id="progress_title">Progress</div>
+    </div>
 
-        <div class="flex_container_prog_weeks">
-            <!-- code for first row of text-->
-            <button id="week_arrow_left" onclick="tbdLeftArrow()"><img src="img\light_gray_arrow_left.png" width="20.77px" height="20.25px"></button>
-            <div class="small_font" id="prev_week">previous week</div>
-            <div class="small_font" id="progress_week_date">January 15 - 21</div>
-            <div class="small_font" id="next_week"> next week</div>
-            <button id="week_arrow_right" onclick="tbdRightArrow()"><img src="img\light_gray_arrow_left.png" width="20.77px" height="20.25px"></button>
+    <div class="flex_container_prog_weeks">
+      <!-- code for first row of text-->
+      <button id="week_arrow_left" onclick="tbdLeftArrow()">
+        <img src="img/light_gray_arrow_left.png" width="20.77px" height="20.25px">
+      </button>
+      <div class="small_font" id="prev_week">previous week</div>
+      <div class="small_font" id="progress_week_date">January 15 - 21</div>
+      <div class="small_font" id="next_week"> next week</div>
+      <button id="week_arrow_right" onclick="tbdRightArrow()">
+        <img src="img\light_gray_arrow_left.png" width="20.77px" height="20.25px">
+      </button>
 
-            <!-- code for # days compelted-->
-            <div class="flex_container_prog_days_completed">
-                <div id="num_days_completed">1/5</div>
-                <div class="small_font" id="num_days_completed_txt">days completed</div>
-            </div>
+      <!-- code for # days compelted-->
+      <div class="flex_container_prog_days_completed">
+        <div id="num_days_completed">1/5</div>
+        <div class="small_font" id="num_days_completed_txt">days completed</div>
+      </div>
 
-            <!-- code for circualar progress bars (these are going to be displaying the same data from the circular progress bars on the home page) they currently have different id's due to placement differences-->
-            <div class="flex_container_circular_progress">
-                <img id="prog_mon" src="img/Circular_Progress_Purple_Empty.png" width="77.34px" height="77.34px">
-                <img id="prog_tue" src="img/Circular_Progress_Purple_Empty.png" width="77.34px" height="77.34px">
-                <img id="prog_wed" src="img/Circular_Progress_Purple_Empty.png" width="77.34px" height="77.34px">
-                <img id="prog_thur" src="img/Circular_Progress_Purple_Empty.png" width="77.34px" height="77.34px">
-                <img id="prog_fri" src="img/Circular_Progress_Purple_Empty.png" width="77.34px" height="77.34px">
-                <img id="prog_sat" src="img/Circular_Progress_Purple_Empty.png" width="77.34px" height="77.34px">
-                <img id="prog_sun" src="img/Circular_Progress_Purple_Empty.png" width="77.34px" height="77.34px">
-                
-                <div class="small_font" id="prog_txt_mon">M</div>
-                <div class="small_font" id="prog_txt_tue">T</div>
-                <div class="small_font" id="prog_txt_wed">W</div>
-                <div class="small_font" id="prog_txt_thur">T</div>
-                <div class="small_font" id="prog_txt_fri">F</div>
-                <div class="small_font" id="prog_txt_sat">S</div>
-                <div class="small_font" id="prog_txt_sun">S</div>
-            </div>
-        </div>
+      <!-- code for circualar progress bars (these are going to be displaying the same data from the circular progress bars on the home page) they currently have different id's due to placement differences-->
+      <div class="flex_containter_circular_progress">
+        <img id="prog_mon" src="img/Circular_Progress_Purple_Empty.png" width="77.34px" height="77.34px">
+        <img id="prog_tue" src="img/Circular_Progress_Purple_Empty.png" width="77.34px" height="77.34px">
+        <img id="prog_wed" src="img/Circular_Progress_Purple_Empty.png" width="77.34px" height="77.34px">
+        <img id="prog_thur" src="img/Circular_Progress_Purple_Empty.png" width="77.34px" height="77.34px">
+        <img id="prog_fri" src="img/Circular_Progress_Purple_Empty.png" width="77.34px" height="77.34px">
+        <img id="prog_sat" src="img/Circular_Progress_Purple_Empty.png" width="77.34px" height="77.34px">
+        <img id="prog_sun" src="img/Circular_Progress_Purple_Empty.png" width="77.34px" height="77.34px">
 
-        <div class="flex_container_progress_overview">
-            <div class="large_font" id="progress_overview_title">Progress Overview</div>
-
-            <div class="flex_container_goal_text">
-                <img id="squares" src="img\green_square.png" width="24px" height="24px">
-                <div class="small_font" id="goal_texts">Goal Met</div>
-                <img id="squares" src="img\red_square.png" width="24px" height="24px">
-                <div class="small_font" id="goal_texts">Goal Unmet</div>
-            </div>
-          
-            <div class="small_font" id="days_exercised">Days of Exercise</div>
-           
-            <div >
-                <div id="num_7">7</div> <hr class="lines" id="line1">
-              <!--  <div id="num_6">6</div> <hr class="lines" id="line2">-->
-            </div>
-        </div>
-
-    <footer-tabs></footer-tabs>
-    <script src="./js/script.js"></script>
-    <script>
-      if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('./service_workers.js', {
-          scope: './'
-        });
-      }
-    </script>
-   </body>
+        <div class="small_font" id="prog_txt_mon">M</div>
+        <div class="small_font" id="prog_txt_tue">T</div>
+        <div class="small_font" id="prog_txt_wed">W</div>
+        <div class="small_font" id="prog_txt_thur">T</div>
+        <div class="small_font" id="prog_txt_fri">F</div>
+        <div class="small_font" id="prog_txt_sat">S</div>
+        <div class="small_font" id="prog_txt_sun">S</div>
+      </div>
+    </div>
+  </body>
 </html>
