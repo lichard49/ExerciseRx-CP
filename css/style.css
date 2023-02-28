@@ -339,7 +339,7 @@ body {
 /* PROGRESS PAGE STYLING */
 
 /* title styling */
-.flex_containter_prog_title {
+.flex_container_prog_title {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -452,7 +452,7 @@ body {
 }
 
 /* Circular Progress Bars */
-.flex_containter_circular_progress {
+.flex_container_circular_progress {
  display: flex; 
  flex-direction: row;
  flex-wrap: wrap;
@@ -516,3 +516,106 @@ body {
 #prog_txt_sun {
   margin-left: 65.11px;
 }
+
+/* Styling for Progress Overview Portion of the Progress Page */
+.flex_container_progress_overview {
+  display: flex; 
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start; 
+  width: 1072px;
+  height: 1167.55px;
+  margin-top: 38px;
+  margin-left: 64px;
+  background: #FFFFFF;
+  border: 1px solid #EFEFF0;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 32px;
+}
+
+#progress_overview_title {
+  width: 961.02px;
+  height: 65.55px;
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 120%;
+  margin-left: 56px; 
+  margin-top: 40px;
+}
+
+.flex_container_goal_text {
+  display: flex;
+  align-items: row;
+  flex-wrap: wrap;
+  width: 660px;
+  height: 52px;
+} 
+
+#squares {
+  margin-left: 56px; 
+  margin-top: 68.66px;
+}
+
+#goal_texts {
+  width: 231px; 
+  height: 52px; 
+  margin-top: 56px;
+  margin-left: 19px;
+}
+
+#days_exercised {
+  rotate: -90deg;
+  font-size: 26px;
+  width: 231px;
+  height: 52px;
+  margin-left: 0px;
+  margin-top: 307px;
+}
+
+.flex_container_exercise_graph {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap; 
+  width: 1108px;
+  height: 750px;
+  margin-top: 48px;
+  margin-left:24px;
+}
+
+.lines {
+  width: 781px;
+  height: 0px;
+  border: 1px solid #9E9E9E;
+  border-radius: 10px;
+  align-self: stretch;
+}
+
+#num_7 {
+  font-size: 26px;
+  width: 24px;
+  height: 43px;
+  margin-left: 132px;
+  margin-top: -250px;
+}
+
+#line1 {
+  margin-top: -25px;
+  margin-left: 175px;
+}
+
+/*
+#num_6 {
+  font-size: 26px;
+  width: 24px;
+  height: 43px;
+  margin-left: -890px;
+  margin-top: 51.87px;
+}
+
+
+#line2 {
+  margin-top: 10px;
+  margin-left: -840px;
+}
+*/
