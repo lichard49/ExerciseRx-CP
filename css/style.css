@@ -517,7 +517,7 @@ body {
   margin-left: 65.11px;
 }
 
-/*Styling for Progress Overview Portion of the Progress Page*/
+/* Styling for Progress Overview Portion of the Progress Page */
 .flex_container_progress_overview {
   display: flex; 
   flex-direction: column;
@@ -583,7 +583,7 @@ body {
   margin-left:24px;
 }
 
-.lines{
+.lines {
   width: 781px;
   height: 0px;
   border: 1px solid #9E9E9E;
