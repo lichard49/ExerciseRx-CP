@@ -13,7 +13,7 @@
     <title>Progress - ExerciseRx-CP</title>
   </head>
   <body>
-    <div class="flex_containter_prog_title">
+    <div class="flex_container_prog_title">
       <a href="index.html">
         <img src="img/left_pointing_arrow.png" width="26.67px" height="21.99px" id="back_button_home_pg">
       </a>
@@ -39,7 +39,7 @@
       </div>
 
       <!-- code for circualar progress bars (these are going to be displaying the same data from the circular progress bars on the home page) they currently have different id's due to placement differences-->
-      <div class="flex_containter_circular_progress">
+      <div class="flex_container_circular_progress">
         <img id="prog_mon" src="img/Circular_Progress_Purple_Empty.png" width="77.34px" height="77.34px">
         <img id="prog_tue" src="img/Circular_Progress_Purple_Empty.png" width="77.34px" height="77.34px">
         <img id="prog_wed" src="img/Circular_Progress_Purple_Empty.png" width="77.34px" height="77.34px">
@@ -57,5 +57,33 @@
         <div class="small_font" id="prog_txt_sun">S</div>
       </div>
     </div>
+
+    <div class="flex_container_progress_overview">
+      <div class="large_font" id="progress_overview_title">Progress Overview</div>
+
+      <div class="flex_container_goal_text">
+          <img id="squares" src="img/green_square.png" width="24px" height="24px">
+          <div class="small_font" id="goal_texts">Goal Met</div>
+          <img id="squares" src="img/red_square.png" width="24px" height="24px">
+          <div class="small_font" id="goal_texts">Goal Unmet</div>
+      </div>
+
+      <div class="small_font" id="days_exercised">Days of Exercise</div>
+
+      <div >
+          <div id="num_7">7</div> <hr class="lines" id="line1">
+        <!--  <div id="num_6">6</div> <hr class="lines" id="line2">-->
+      </div>
+    </div>
+
+    <footer-tabs></footer-tabs>
+    <script src="./js/script.js"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+          navigator.serviceWorker.register('./service_workers.js', {
+          scope: './'
+          });
+      }
+    </script>
   </body>
 </html>

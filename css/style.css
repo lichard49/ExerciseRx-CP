@@ -339,7 +339,7 @@ body {
 /* PROGRESS PAGE STYLING */
 
 /* title styling */
-.flex_containter_prog_title {
+.flex_container_prog_title {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -452,7 +452,7 @@ body {
 }
 
 /* Circular Progress Bars */
-.flex_containter_circular_progress {
+.flex_container_circular_progress {
  display: flex; 
  flex-direction: row;
  flex-wrap: wrap;
@@ -530,6 +530,7 @@ body {
   background: #FFFFFF;
   border: 1px solid #EFEFF0;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 32px;
 }
 
 #progress_overview_title {
