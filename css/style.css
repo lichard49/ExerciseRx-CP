@@ -633,24 +633,311 @@ body {
   margin-left: 48px;
 }
 
-/*Found issue: when trying to resize the progress bars, it moves from the bottmom and not the top (meaning it'll need to be shifted down with margin-top. I tried fixing this by rotating it but it still didn't work. Will keep it for now and go back to fix if time permits*/
+/*Found issue: when trying to resize the progress bars, it moves from the bottmom and not the top (meaning it'll need to be shifted down with margin-top. I tried fixing this by rotating it but it still didn't work. Will go back to fix if time permits*/
 
-#test {
+/*For each Week, there will be two bars; one light gray one for the "goal" and an either green/red bar that shows how much the user did*/
+
+/*the goal will be called "...bar_goal_week_#"  
+the bar for what the user did/accomplished will be "....bar_user_accomp_week_#"*/
+
+#prog_bar_user_accomp_week_1 {
   position: absolute;
-  rotate: 180deg;
   height: 467px;
   width: 24px;
   background: #3DCC87;
   margin-left: 203px;
   margin-top: 324px;
-  border-bottom-right-radius: 15px;
-  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
 
+#prog_bar_user_goal_week_1 {
+  position: absolute;
+  height: 467px;
+  width: 24px;
+  background: #DEDEDE;
+  margin-left: 203px;
+  margin-top: 324px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
 }
 
 
+#prog_bar_user_accomp_week_2 {
+  position: absolute;
+  height: 267px;
+  width: 24px;
+  background: #EF3030;
+  margin-left: 340px;
+  margin-top: 524px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
 
+#prog_bar_user_goal_week_2 {
+  position: absolute;
+  height: 467px;
+  width: 24px;
+  background: #DEDEDE;
+  margin-left: 340px;
+  margin-top: 324px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
 
+#prog_bar_user_accomp_week_3 {
+  position: absolute;
+  height: 467px;
+  width: 24px;
+  background: #3DCC87;
+  margin-left: 490px;
+  margin-top: 324px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
 
+#prog_bar_user_goal_week_3 {
+  position: absolute;
+  height: 467px;
+  width: 24px;
+  background: #DEDEDE;
+  margin-left: 490px;
+  margin-top: 324px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
 
+#prog_bar_user_accomp_week_4 {
+  position: absolute;
+  height: 267px;
+  width: 24px;
+  background: #EF3030;
+  margin-left: 630px;
+  margin-top: 524px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
 
+#prog_bar_user_goal_week_4 {
+  position: absolute;
+  height: 467px;
+  width: 24px;
+  background: #DEDEDE;
+  margin-left: 630px;
+  margin-top: 324px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+#prog_bar_user_accomp_week_5 {
+  position: absolute;
+  height: 467px;
+  width: 24px;
+  background: #3DCC87;
+  margin-left: 770px;
+  margin-top: 324px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+#prog_bar_user_goal_week_5 {
+  position: absolute;
+  height: 467px;
+  width: 24px;
+  background: #DEDEDE;
+  margin-left: 770px;
+  margin-top: 324px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+#prog_bar_user_accomp_week_6 {
+  position: absolute;
+  height: 467px;
+  width: 24px;
+  background: #3DCC87;
+  margin-left: 900px;
+  margin-top: 324px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+#prog_bar_user_goal_week_6 {
+  position: absolute;
+  height: 467px;
+  width: 24px;
+  background: #DEDEDE;
+  margin-left: 900px;
+  margin-top: 324px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+/*Style for creating exercise plan*/
+
+.flex_container_exercise_plan_title {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 502.34;
+  height: 50px;
+  margin-left: 66.67px; 
+  margin-top: 88px;
+}
+
+#exer_plan_title {
+  margin-top: 0px;
+  margin-left: 34.67px;
+  width: 561px;
+  height: 55px;
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 120%;
+}
+
+#exer_plan_small_title{
+  width: 787px;
+  height: 48px;
+  margin-top: 63px;
+  margin-left: -620px;
+}
+
+/*General Styling for all the exercise, can copy paste + edits for images + exercsie names*/
+.flex_container_exer_plan_bicycle_kicks{
+  display: flex; 
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  width: 1072px;
+  height: 247px;
+  margin-top: 78px;
+  margin-left: 64px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 32px;
+}
+
+#bicycle_kicks_background{
+  background: #FFFFFF;
+}
+#exer_img_bicycle_kicks{
+  margin-top: 10.03px;
+  margin-left: 11px;
+  border-radius: 24px;
+}
+
+.flex_container_exer_info_bicycle_kicks{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 430px;
+  height: 137px;
+  margin-left: 115px;
+  margin-top: 49.07px;
+}
+
+#exer_title_bicycle_kicks{
+  width:291px;
+  height: 55px;
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 120%;
+}
+
+#info_button{
+  margin-left: 28px;
+  margin-top: 10px;
+}
+
+#box_sets_bicycle_kicks{
+  width: 136.19px;
+  height: 53.06px;
+  background: #F3EDFE;
+  border-radius: 9.04808px;
+  margin-top: 50px;
+}
+
+#sets_text_bicycle_kicks{
+  width: 100px;
+  height: 41px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34.0277px;
+  line-height: 41px;
+  margin-left: 18.1px;
+  margin-top: 6.03px;
+  color: #3C1E7C;
+}
+
+#box_reps_bicycle_kicks{
+  width: 136.19px;
+  height: 53.06px;
+  background: #F3EDFE;
+  border-radius: 9.04808px;
+  margin-top: 50px;
+  margin-left: 10px;
+}
+
+#reps_text_bicycle_kicks{
+  width: 119px;
+  height: 41px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34.0277px;
+  line-height: 41px;
+  margin-left: 8.1px;
+  margin-top: 6.03px;
+  color: #3C1E7C;
+}
+
+#button{
+  margin-right: 65px;
+  margin-top: 75.5px;
+}
+
+/*more info for exercises styling (when "i" is clicked)*/
+#toggle{
+  width: 969px;
+  height: 766.18px;
+  position: absolute;
+  background: #FFFFFF;  
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.3);
+  border-radius: 32px;
+  top: 400px;
+  left: 240px;
+}
+
+.flex_container_popup_title{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 1000px;
+  height: 55px;
+
+}
+
+#more_info_exer_stretching{
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 120%;
+  width: 850px;
+  height: 55px;
+  margin-top: 48px;
+  margin-left: 48px;
+}
+
+#x_img{
+  margin-top: 65px;
+  margin-right: 57.12px;
+}
+
+#tutorial_video{
+  width: 873px;
+  height: 775.18px;
+  margin-left: 48px;
+  border-radius: 8px;
+}
