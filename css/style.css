@@ -784,6 +784,7 @@ the bar for what the user did/accomplished will be "....bar_user_accomp_week_#"*
   height: 50px;
   margin-left: 66.67px; 
   margin-top: 88px;
+  margin-bottom: 84px;
 }
 
 #exer_plan_title {
@@ -796,36 +797,37 @@ the bar for what the user did/accomplished will be "....bar_user_accomp_week_#"*
   line-height: 120%;
 }
 
-#exer_plan_small_title{
+#exer_plan_small_title {
   width: 787px;
   height: 48px;
   margin-top: 63px;
   margin-left: -620px;
+  margin-bottom: 54px;
 }
 
 /*General Styling for all the exercise, can copy paste + edits for images + exercsie names*/
-#flex_container_exer_plan_bicycle_kicks{
+
+.flex_container_exer {
   display: flex; 
   flex-direction: row;
   justify-content: flex-start;
   flex-wrap: nowrap;
   width: 1072px;
   height: 247px;
-  margin-top: 78px;
+  margin-top: 24px;
   margin-left: 64px;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
   border-radius: 32px;
-  background: #FFFFFF;
   visibility: visible;
 }
 
-#exer_img_bicycle_kicks{
+#exer_img {
   margin-top: 10.03px;
   margin-left: 11px;
   border-radius: 24px;
 }
 
-.flex_container_exer_info_bicycle_kicks{
+.flex_container_exer_info {
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
@@ -836,70 +838,20 @@ the bar for what the user did/accomplished will be "....bar_user_accomp_week_#"*
   margin-top: 49.07px;
 }
 
-#exer_title_bicycle_kicks{
-  width:350px;
-  height: 55px;
-  font-weight: 600;
-  font-size: 46px;
-  line-height: 120%;
-}
-
-#info_button{
-  margin-left: 8px;
+#info_button {
+  margin-left: 18px;
   margin-top: 10px;
 }
 
-#box_sets_bicycle_kicks{
-  width: 136.19px;
-  height: 53.06px;
-  background: #F3EDFE;
-  border-radius: 9.04808px;
-  margin-top: 50px;
-  margin-left: 3px;
-}
-
-#sets_text_bicycle_kicks{
-  width: 100px;
-  height: 41px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 34.0277px;
-  line-height: 41px;
-  margin-left: 18.1px;
-  margin-top: 6.03px;
-  color: #3C1E7C;
-}
-
-#box_reps_bicycle_kicks{
-  width: 136.19px;
-  height: 53.06px;
-  background: #F3EDFE;
-  border-radius: 9.04808px;
-  margin-top: 50px;
-  margin-left: 10px;
-}
-
-#reps_text_bicycle_kicks{
-  width: 119px;
-  height: 41px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 34.0277px;
-  line-height: 41px;
-  margin-left: 8.1px;
-  margin-top: 6.03px;
-  color: #3C1E7C;
-}
-
-#button{
+#button {
   margin-right: 65px;
   margin-top: 75.5px;
 }
 
+/*styling for the popup help menu: */
+
 /*more info for exercises styling (when "i" is clicked)*/
-#toggle{
+#toggle {
   width: 969px;
   height: 766.18px;
   position: absolute;
@@ -911,7 +863,7 @@ the bar for what the user did/accomplished will be "....bar_user_accomp_week_#"*
   visibility: hidden;
 }
 
-.flex_container_popup_title{
+.flex_container_popup_title {
   display: flex;
   justify-content: flex-start;
   flex-direction: row;
@@ -920,7 +872,7 @@ the bar for what the user did/accomplished will be "....bar_user_accomp_week_#"*
   height: 55px;
 }
 
-#more_info_exer_stretching{
+#more_info_exer_stretching {
   font-weight: 600;
   font-size: 46px;
   line-height: 120%;
@@ -930,12 +882,12 @@ the bar for what the user did/accomplished will be "....bar_user_accomp_week_#"*
   margin-left: 48px;
 }
 
-#x_img{
+#x_img {
   margin-top: 65px;
   margin-right: 57.12px;
 }
 
-#tutorial_video{
+#tutorial_video {
   margin-left: 48px;
   margin-top: 45px;
   border-radius: 8px;
@@ -948,7 +900,7 @@ the bar for what the user did/accomplished will be "....bar_user_accomp_week_#"*
   box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.3);
   border-radius: 48px;
   margin-left: 8px; 
-  margin-top: 1096px;
+  margin-top: 100px;
   color: #FFFFFF;
 }
 
@@ -959,9 +911,172 @@ the bar for what the user did/accomplished will be "....bar_user_accomp_week_#"*
   border: 2px solid #F6F6F6;
   box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.3);
   border-radius: 48px;
-  margin-top: 1096px;
+  margin-top: 100px;
   margin-left: 54px;
+}
 
+/*Styling for general classes for exercises*/
+.exer_titles {
+  width:350px;
+  height: 55px;
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 120%;
+  font-family: 'Inter';
+  font-style: normal;
+  letter-spacing: 0.3px;
+  color: #212121;
+
+}
+
+.box_sets {
+  width: 136.19px;
+  height: 53.06px;
+  background: #F3EDFE;
+  border-radius: 9.04808px;
+  margin-top: 50px;
+  margin-left: 3px;
+}
+
+.sets_text {
+  width: 100px;
+  height: 41px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34.0277px;
+  line-height: 41px;
+  margin-left: 18.1px;
+  margin-top: 6.03px;
+  color: #3C1E7C;
+}
+
+.box_reps {
+  width: 136.19px;
+  height: 53.06px;
+  background: #F3EDFE;
+  border-radius: 9.04808px;
+  margin-top: 50px;
+  margin-left: 10px;
+}
+
+.reps_text {
+  width: 119px;
+  height: 41px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34.0277px;
+  line-height: 41px;
+  margin-left: 8.1px;
+  margin-top: 6.03px;
+}
+
+/*Section for exercise specific ids: */
+
+/*bicycle kicks specific ids section to change color*/
+#container_color_bicycle_kicks {
+  background: #FFFFFF;
+}
+
+#box_sets_bicycle_kicks_color {
+  background: #F3EDFE;
+}
+
+#sets_text_bicycle_kicks_color {
+  color: #3C1E7C;
+}
+
+#box_reps_bicycle_kicks_color {
+  background: #F3EDFE;
+}
+
+#reps_text_bicycle_kicks_color {
+  color: #3C1E7C;
+}
+
+/*running in place exercise styling to change color*/
+#container_color_running_in_place {
+  background: #FFFFFF;
+}
+
+#box_sets_running_in_place_color {
+  background: #F3EDFE;
+}
+
+#sets_text_running_in_place_color {
+  color: #3C1E7C;
+}
+
+#box_reps_running_in_place_color {
+  background: #F3EDFE;
+}
+
+#reps_text_running_in_place_color {
+  color: #3C1E7C;
+}
+
+/*sit ups exercise styling to change color*/
+#container_color_sit_ups {
+  background: #F3EDFE;
+}
+
+#box_sets_sit_ups_color {
+  background: #FFFFFF;
+}
+
+#sets_text_sit_ups_color {
+  color: #3C1E7C;
+}
+
+#box_reps_sit_ups_color {
+  background: #FFFFFF;
+}
+
+#reps_text_sit_ups_color {
+  color: #3C1E7C;
+}
+
+/*lunges exercise styling to change color*/
+#container_color_lunges {
+  background: #FFFFFF;
+}
+
+#box_sets_lunges_color {
+  background: #F3EDFE;
+}
+
+#sets_text_lunges_color {
+  color: #3C1E7C;
+}
+
+#box_reps_lunges_color {
+  background: #F3EDFE;
+}
+
+#reps_text_lunges_color {
+  color: #3C1E7C;
+}
+
+/*stretching exercise styling to change color*/
+#container_color_stretching {
+  background: #FFFFFF;
+}
+
+#box_sets_stretching_color {
+  background: #F3EDFE;
+}
+
+#sets_text_stretching_color {
+  color: #3C1E7C;
+}
+
+#box_reps_stretching_color {
+  background: #F3EDFE;
+}
+
+#reps_text_stretching_color {
+  color: #3C1E7C;
 }
 
 /*Styling for Final Chosen Exercises/Plan Page*/
@@ -979,12 +1094,12 @@ the bar for what the user did/accomplished will be "....bar_user_accomp_week_#"*
   border-radius: 32px;
 }
 
-#green_i_img{
+#green_i_img {
   margin-top: 46.83px;
   margin-left: 43.33px;
 }
 
-#alert_text{
+#alert_text {
   margin-top: 40.5px;
   margin-left: 83.33px;
   width: 872px;
@@ -994,7 +1109,7 @@ the bar for what the user did/accomplished will be "....bar_user_accomp_week_#"*
   color: #104C38;
 }
 
-#flex_container_exer_plan_running_in_place{
+#flex_container_exer_plan_running_in_place {
   display: flex; 
   flex-direction: row;
   justify-content: flex-start;

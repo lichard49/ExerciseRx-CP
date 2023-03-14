@@ -44,51 +44,8 @@ function startWorkoutPage(){
   window.location.href = "tbd.html";
 }
 
-
-
-//code to highlight button/change box colors on selected exercises 
-var is_exercise_selected = false; 
-function exerciseSelected(exercise_name){
-
-  var img = document.getElementById("button");
-  var sets = document.getElementById("box_sets_bicycle_kicks");
-  var reps = document.getElementById("box_reps_bicycle_kicks");
-  var box = document.getElementById("flex_container_exer_plan_bicycle_kicks");
-
-  if (is_exercise_selected == false){
-    is_exercise_selected = true;
-    img.src = 'img/img_checkmark_selected.png';
-    sets.style.background="#FFFFFF"; 
-    reps.style.background="#FFFFFF"; 
-    box.style.background = "#F3EDFE"
-  }else{
-    is_exercise_selected = false;
-    img.src = 'img/img_circle_button_clear.png';
-    sets.style.background="#F3EDFE"; 
-    reps.style.background="#F3EDFE"; 
-    box.style.background = "#FFFFFF";
-  }
-}
-
-/**/ 
-/* 
-// trying to find a way to get the selected exercises to the final exercise plan page, so far not working, will try coming back to it
-
-var selected_exercise_list = [];
-function addBicyleKicks(exercise_name){
-  exercise_name.style.visibility = hidden;
-  selected_exercise_list.push("bicycle_kicks");
-  console.log('array = ' + selected_exercise_list[0]);
-}
-//helper method to parse exercise Id's 
-//to parse, the part that is same for all is 25 letters (inclusive)
-function nameParser(name){
-  name_length = name.length - 13; 
-  console.log(name);
-}
-*/
 var info_section_selected = false;
-function toggle(){
+function toggleHelpMenu(){
   var img = document.getElementById("toggle");
   if(info_section_selected == false){
     info_section_selected = true;
