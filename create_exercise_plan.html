@@ -19,80 +19,45 @@
         <div class="small_font" id="exer_plan_small_title">Select 4 exercises to do today.</div>
       </div>
 
-      <div class="flex_container_exer_plan_bicycle_kicks" id="bicycle_kicks_background">
+      <div id="flex_container_exer_plan_bicycle_kicks">
         <img src="img/img_bicycle_kicks.png" id="exer_img_bicycle_kicks" width="310.22px" height="223.96px">
         <div class="flex_container_exer_info_bicycle_kicks">
           <div class="large_font" id="exer_title_bicycle_kicks">bicycle kicks</div>
 
-          <div id="popup" onclick="toggleHelpPopup()">
+          <div onclick="toggle()">
             <img src="img/img_info.png" id="info_button" width="40px" height="40px">
           </div>
 
-          <div id="flex_container_exer_plan_bicycle_kicks">
-            <img src="img/img_bicycle_kicks.png" id="exer_img_bicycle_kicks" width="310.22px" height="223.96px">
-            <div class="flex_container_exer_info_bicycle_kicks">
-              <div class="large_font" id="exer_title_bicycle_kicks">bicycle kicks</div>
-
-              <div onclick="toggle()">
-                <img src="img/img_info.png" id="info_button" width="40px" height="40px">
-              </div>
-  
-              <div id="box_sets_bicycle_kicks">
-                <div id="sets_text_bicycle_kicks">3 sets</div>
-              </div>
-
-              <div id="box_reps_bicycle_kicks">
-                <div id="reps_text_bicycle_kicks">10 reps</div>
-              </div>
-            </div>
-
-            <div onclick="addBicyleKicks(document.getElementById('flex_container_exer_plan_bicycle_kicks'))" id="bicycle_kicks">
-              <div onclick="exerciseSelected()">
-                <img id="button" src="img/img_circle_button_clear.png" width="96px" height="96px">
-              </div>
-            </div> 
+          <div id="box_sets_bicycle_kicks">
+            <div id="sets_text_bicycle_kicks">3 sets</div>
           </div>
 
-        <!--
-        <div id="flex_container_exer_plan_running_in_place">
-          <img src="img/running_in_place.png" id="exer_img_bicycle_kicks" width="310.22px" height="223.96px">
-          <div class="flex_container_exer_info_bicycle_kicks">
-            <div class="large_font" id="exer_title_bicycle_kicks">running in place</div>
-
-            <div onclick="toggle()">
-              <img src="img/img_info.png" id="info_button" width="40px" height="40px">
-            </div>
-
-            <div id="box_sets_bicycle_kicks">
-                <div id="sets_text_bicycle_kicks">3 sets</div>
-            </div>
-
-            <div id="box_reps_bicycle_kicks">
-                <div id="reps_text_bicycle_kicks">10 reps</div>
-            </div>
+          <div id="box_reps_bicycle_kicks">
+            <div id="reps_text_bicycle_kicks">10 reps</div>
           </div>
-          <div onclick="addBicyleKicks(document.getElementById('flex_container_exer_plan_bicycle_kicks'))" id="bicycle_kicks">
-            <div onclick="exerciseSelected()">
-              <img id="button_running_in_place" src="img/img_circle_button_clear.png" width="96px" height="96px">
-            </div>
-          </div> 
         </div>
-        -->
-       
-        <!-- code for popup menus for more info (when the "i" is clicked) -->
-        <div onclick="toggle()" id="toggle">
-          <div class="flex_container_popup_title">
-            <div class="large_font" id="more_info_exer_stretching">stretching</div>
-            <div onclick="toggle()">
-              <img id="x_img" src="img/img_x.png" width="29.75px" height="29.75px">
-            </div>
-          </div>
-          <video id="tutorial_video" src="img/filler_video.mp4" width="873px" height="575.18px" controls="controls">
-        </div> 
 
-        <footer>
-          <button class="small_font" id="default_plan_button" onclick="defaultPlanPageChange()"><p id="font_adjust">Use Default Plan</p></button>
-          <button class="small_font" id="save_plan_button" onclick="savePlanPageChange()"><p id="font_adjust">Save Plan</p></button>
-        </footer>
+        <div onclick="addBicyleKicks(document.getElementById('flex_container_exer_plan_bicycle_kicks'))" id="bicycle_kicks">
+          <div onclick="exerciseSelected()">
+            <img id="button" src="img/img_circle_button_clear.png" width="96px" height="96px">
+          </div>
+        </div> 
+      </div>
+
+      <!-- code for popup menus for more info (when the "i" is clicked) -->
+      <div onclick="toggle()" id="toggle">
+        <div class="flex_container_popup_title">
+          <div class="large_font" id="more_info_exer_stretching">stretching</div>
+          <div onclick="toggle()">
+            <img id="x_img" src="img/img_x.png" width="29.75px" height="29.75px">
+          </div>
+        </div>
+        <video id="tutorial_video" src="img/filler_video.mp4" width="873px" height="575.18px" controls="controls">
+      </div>
+
+      <footer>
+        <button class="small_font" id="default_plan_button" onclick="defaultPlanPageChange()"><p id="font_adjust">Use Default Plan</p></button>
+        <button class="small_font" id="save_plan_button" onclick="savePlanPageChange()"><p id="font_adjust">Save Plan</p></button>
+      </footer>
     </body>
 </html>

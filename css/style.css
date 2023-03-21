@@ -813,7 +813,7 @@ the bar for what the user did/accomplished will be "....bar_user_accomp_week_#" 
 }
 
 /* General Styling for all the exercise, can copy paste + edits for images + exercise names */
-.flex_container_exer_plan_bicycle_kicks {
+#flex_container_exer_plan_bicycle_kicks {
   display: flex; 
   flex-direction: row;
   justify-content: flex-start;
@@ -951,7 +951,7 @@ the bar for what the user did/accomplished will be "....bar_user_accomp_week_#" 
   width: 873px;
   height: 775.18px;
   margin-left: 48px;
-  margin-top: 45px;
+  margin-top: -45px;
   border-radius: 8px;
 }
 
