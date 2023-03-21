@@ -812,8 +812,8 @@ the bar for what the user did/accomplished will be "....bar_user_accomp_week_#" 
   margin-left: -620px;
 }
 
-/* General Styling for all the exercise, can copy paste + edits for images + exercsie names */
-.flex_container_exer_plan_bicycle_kicks {
+/* General Styling for all the exercise, can copy paste + edits for images + exercise names */
+#flex_container_exer_plan_bicycle_kicks {
   display: flex; 
   flex-direction: row;
   justify-content: flex-start;
@@ -828,9 +828,10 @@ the bar for what the user did/accomplished will be "....bar_user_accomp_week_#" 
 
 #bicycle_kicks_background {
   background: #FFFFFF;
+  visibility: visible;
 }
 
-#exer_img_bicycle_kicks{
+#exer_img_bicycle_kicks {
   margin-top: 10.03px;
   margin-left: 11px;
   border-radius: 24px;
@@ -866,6 +867,7 @@ the bar for what the user did/accomplished will be "....bar_user_accomp_week_#" 
   background: #F3EDFE;
   border-radius: 9.04808px;
   margin-top: 50px;
+  margin-left: 3px;
 }
 
 #sets_text_bicycle_kicks {
@@ -918,6 +920,7 @@ the bar for what the user did/accomplished will be "....bar_user_accomp_week_#" 
   border-radius: 32px;
   top: 400px;
   left: 240px;
+  visibility: hidden;
 }
 
 .flex_container_popup_title {
@@ -927,7 +930,6 @@ the bar for what the user did/accomplished will be "....bar_user_accomp_week_#" 
   flex-wrap: nowrap;
   width: 1000px;
   height: 55px;
-
 }
 
 #more_info_exer_stretching {
@@ -949,5 +951,73 @@ the bar for what the user did/accomplished will be "....bar_user_accomp_week_#" 
   width: 873px;
   height: 775.18px;
   margin-left: 48px;
+  margin-top: -45px;
   border-radius: 8px;
+}
+
+#save_plan_button {
+  width: 542px;
+  height: 80px;
+  background: #683CAE;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.3);
+  border-radius: 48px;
+  margin-left: 8px; 
+  margin-top: 1096px;
+  color: #FFFFFF;
+}
+
+#default_plan_button {
+  width: 542px;
+  height: 80px;
+  background: #FFFFFF;
+  border: 2px solid #F6F6F6;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.3);
+  border-radius: 48px;
+  margin-top: 1096px;
+  margin-left: 54px;
+}
+
+/* Styling for Final Chosen Exercises/Plan Page */
+.flex_container_exercise_plan_alert {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 1072px;
+  height: 127px;
+  margin-top: 84px;
+  margin-left: 60px;
+  background: #D8F5E9;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.3);
+  border-radius: 32px;
+}
+
+#green_i_img {
+  margin-top: 46.83px;
+  margin-left: 43.33px;
+}
+
+#alert_text {
+  margin-top: 40.5px;
+  margin-left: 83.33px;
+  width: 872px;
+  height: 46px;
+  font-size: 38px;
+  line-height: 120%;
+  color: #104C38;
+}
+
+#flex_container_exer_plan_running_in_place {
+  display: flex; 
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  width: 1072px;
+  height: 247px;
+  margin-top: 34px;
+  margin-left: 64px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 32px;
+  background: #FFFFFF;
+  visibility: visible;
 }

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport"
+        content="width=device-width, initial-scale=0.66667, viewport-fit=cover">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter" rel="stylesheet">
+        <link rel="stylesheet" href="./css/style.css">
+        <script src="./js/app_components.js"></script>
+        <title>Finalized Exercise Plan - ExerciseRx-CP</title>
+    </head>
+
+    <body>
+        <div class="flex_container_exercise_plan_title">
+            <a href="create_exercise_plan.html"><img src="img\left_pointing_arrow.png" width="26.67px" height="21.99px" id="back_button_home_pg"></a>
+            <div class="large_font" id="exer_plan_title">Today's Exercises</div>
+            <div class="small_font" id="exer_plan_small_title">Time to get moving!</div>
+        </div>
+
+        <div class="flex_container_exercise_plan_alert"> 
+            <img src="img\img_green_info_button.png" id="green_i_img" width="33.33px" height="33.33px">
+            <div id="alert_text">Exercise plan successfully created!</div>
+        </div>
+
+        <!--Code for selected exercises-->
+        <div id="flex_container_exer_plan_bicycle_kicks">
+            <img src="img\img_bicycle_kicks.png" id="exer_img_bicycle_kicks" width="310.22px" height="223.96px">
+            <div class="flex_container_exer_info_bicycle_kicks">
+                <div class="large_font" id="exer_title_bicycle_kicks">bicycle kicks</div>
+                
+                <div id="box_sets_bicycle_kicks">
+                    <div id="sets_text_bicycle_kicks">3 sets</div>
+                </div>
+
+                <div id="box_reps_bicycle_kicks">
+                    <div id="reps_text_bicycle_kicks">10 reps</div>
+                </div>
+            </div>
+            
+        </div>
+        <div id="flex_container_exer_plan_running_in_place">
+            <img src="img\running_in_place.png" id="exer_img_bicycle_kicks" width="310.22px" height="223.96px">
+            <div class="flex_container_exer_info_bicycle_kicks">
+                <div class="large_font" id="exer_title_bicycle_kicks">running in place</div>
+                
+                <div id="box_sets_bicycle_kicks">
+                    <div id="sets_text_bicycle_kicks">3 sets</div>
+                </div>
+
+                <div id="box_reps_bicycle_kicks">
+                    <div id="reps_text_bicycle_kicks">10 reps</div>
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            <button class="small_font" id="default_plan_button" onclick="newPage()"><p id="font_adjust">Modify Plan</p></button>
+            <button class="small_font" id="save_plan_button" onclick="startWorkoutPage()"><p id="font_adjust">Start Exercises</p></button>
+        </footer>
+    </body>
+</html>
