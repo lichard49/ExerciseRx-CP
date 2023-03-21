@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport"
+        content="width=device-width, initial-scale=0.66667, viewport-fit=cover">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter" rel="stylesheet">
+        <link rel="stylesheet" href="./css/style.css">
+        <script src="./js/app_components.js"></script>
+        <title>Create Exercise Plan - ExerciseRx-CP</title>
+    </head>
+    <body>
+      <div class="flex_container_exercise_plan_title">
+        <a href="index.html"><img src="img/left_pointing_arrow.png" width="26.67px" height="21.99px" id="back_button_home_pg"></a>
+        <div class="large_font" id="exer_plan_title">Create your exercise plan</div>
+        <div class="small_font" id="exer_plan_small_title">Select 4 exercises to do today.</div>
+      </div>
+
+      <div class="flex_container_exer_plan_bicycle_kicks" id="bicycle_kicks_background">
+        <img src="img/img_bicycle_kicks.png" id="exer_img_bicycle_kicks" width="310.22px" height="223.96px">
+        <div class="flex_container_exer_info_bicycle_kicks">
+          <div class="large_font" id="exer_title_bicycle_kicks">bicycle kicks</div>
+
+          <div id="popup" onclick="toggleHelpPopup()">
+              <img src="img/img_info.png" id="info_button" width="40px" height="40px">
+          </div>
+
+          <div id="box_sets_bicycle_kicks">
+              <div id="sets_text_bicycle_kicks">3 sets</div>
+          </div>
+          <div id="box_reps_bicycle_kicks">
+              <div id="reps_text_bicycle_kicks">10 reps</div>
+          </div>
+        </div>
+        <div onclick="exerciseSelected()" >
+            <img id="button" src="img/img_circle_button_clear.png" width="96px" height="96px">
+        </div>
+      </div>
+
+      <!--code for popup menus for more info (when the "i" is clicked)-->
+      <div onclick="toggle()" id="toggle">
+        <div class="flex_container_popup_title">
+          <div class="large_font" id="more_info_exer_stretching">stretching</div>
+          <img id="x_img" src="img/img_x.png" width="29.75px" height="29.75px">
+        </div>
+        <video id="tutorial_video" src="img/filler_video.mp4">
+      </div>
+    </body>
+</html>
