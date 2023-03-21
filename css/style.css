@@ -814,7 +814,7 @@ the bar for what the user did/accomplished will be "....bar_user_accomp_week_#" 
   margin-bottom: 54px;
 }
 /* General Styling for all the exercise, can copy paste + edits for images + exercise names */
-#flex_container_exer_plan_bicycle_kicks {
+.flex_container_exer {
   display: flex; 
   flex-direction: row;
   justify-content: flex-start;
