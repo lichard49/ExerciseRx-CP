@@ -40,7 +40,7 @@ function savePlanPageChange(){
 }
 
 //Function for starting exercises plan 
-function startWorkoutPage(){
+function startPositioningPage(){
   window.location.href = "tbd.html";
 }
 
@@ -55,6 +55,19 @@ function toggleHelpMenu(){
     img.style.visibility = "hidden";
   }
 }
+
+var start_exercise_alignment_pop_up_selected = false;
+function toggleAlignment(){
+  var img = document.getElementById("toggle_align");
+  if(start_exercise_alignment_pop_up_selected == false){
+    start_exercise_alignment_pop_up_selected = true;
+    img.style.visibility = "visible";
+  }else{
+    start_exercise_alignment_pop_up_selected = false;
+    img.style.visibility = "hidden";
+  }
+}
+
 //these functions are in progress.html; not sure if needed for future code but put these "tbd" functions just in case/to be more clear
 function tbdLeftArrow(){
 
