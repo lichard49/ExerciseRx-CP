@@ -94,10 +94,25 @@
             </div>
         </div>
 
+        <!--pop-up menu for when users click start exercises (tells them to start next steps to properly align in camera)-->
+        <div class="flex_container_pop_up_user_align" id="toggle_align">
+            <div onclick="toggleAlignment()">
+                <img id="x_img_align" src="img\img_x.png" width="29.75px" height="29.75px">
+            </div>
+
+            <img id="run_icon" src="img\img_purple_person_running.png" width="76.8px" height="93.12px">
+
+            <div class="large_font" id="popup_title_align">Let's get into position</div>
+
+            <div class="small_font" id="popup_text_align">First, we have to make sure you are correctly positioned so we can count your reps.</div>
+
+            <button class="small_font" id="start_positioning_button" onclick="startPositioningPage()"><p id="font_adjust">Start Positioning</p></button>
+        </div>
         
         <footer>
             <button class="small_font" id="default_plan_button" onclick="newPage()"><p id="font_adjust">Modify Plan</p></button>
-            <button class="small_font" id="save_plan_button" onclick="startWorkoutPage()"><p id="font_adjust">Start Exercises</p></button>
+
+            <button class="small_font" id="save_plan_button" onclick="toggleAlignment()"><p id="font_adjust">Start Exercises</p></button>
         </footer>
     </body>
 </html>

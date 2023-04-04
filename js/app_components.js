@@ -38,14 +38,14 @@ function savePlanPageChange() {
   window.location.href = "finalized_exercise_plan.html";
 }
 
-// Function for starting exercises plan 
-function startWorkoutPage() {
+//Function for starting exercises plan 
+function startPositioningPage() {
   window.location.href = "tbd.html";
 }
 
-var info_section_selected = false;
+let info_section_selected = false;
 function toggleHelpMenu() {
-  var img = document.getElementById("toggle");
+  const img = document.getElementById("toggle");
   if (info_section_selected == false) {
     info_section_selected = true;
     img.style.visibility = "visible";
@@ -55,9 +55,16 @@ function toggleHelpMenu() {
   }
 }
 
-// these functions are in progress.html; not sure if needed for future code but put these "tbd" functions just in case/to be more clear
-function tbdLeftArrow() {
-
+let start_exercise_alignment_pop_up_selected = false;
+function toggleAlignment(){
+  const img = document.getElementById("toggle_align");
+  if (start_exercise_alignment_pop_up_selected == false) {
+    start_exercise_alignment_pop_up_selected = true;
+    img.style.visibility = "visible";
+  } else {
+    start_exercise_alignment_pop_up_selected = false;
+    img.style.visibility = "hidden";
+  }
 }
 
 function tbdRightArrow() {
