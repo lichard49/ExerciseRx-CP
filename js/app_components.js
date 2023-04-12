@@ -25,6 +25,18 @@ class FooterTabs extends HTMLElement {
 
 //Used for Buttons
 //Function for main page to creating exercise plan page
+function homePage(){
+  window.location.href = "index.html";
+}
+
+function alignmentStep2(){
+  window.location.href = "alignment_steps_2.html"
+}
+
+function alignmentStep3(){
+  window.location.href = "tbd.html"
+}
+
 function newPage(){
   window.location.href = "create_exercise_plan.html";
 }
@@ -41,7 +53,7 @@ function savePlanPageChange(){
 
 //Function for starting exercises plan 
 function startPositioningPage(){
-  window.location.href = "tbd.html";
+  window.location.href = "alignment_steps.html";
 }
 
 var info_section_selected = false;
