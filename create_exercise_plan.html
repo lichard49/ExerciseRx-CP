@@ -1,150 +1,150 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta name="viewport"
-        content="width=device-width, initial-scale=0.66667, viewport-fit=cover">
-        <meta name="mobile-web-app-capable" content="yes">
-        <meta name="apple-mobile-web-app-capable" content="yes">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter" rel="stylesheet">
-        <link rel="stylesheet" href="./css/style.css">
-        <script src="./js/app_components.js"></script>
-        <title>Create Exercise Plan - ExerciseRx-CP</title>
-    </head>
-    <body>
-      <div class="flex_container_exercise_plan_title">
-        <a href="index.html"><img src="img/left_pointing_arrow.png" width="26.67px" height="21.99px" id="back_button_home_pg"></a>
-        <div class="large_font" id="exer_plan_title">Create your exercise plan</div>
-        <div class="small_font" id="exer_plan_small_title">Select 4 exercises to do today.</div>
+  <head>
+    <meta name="viewport"
+    content="width=device-width, initial-scale=0.66667, viewport-fit=cover">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/app_components.js"></script>
+    <title>Create Exercise Plan - ExerciseRx-CP</title>
+  </head>
+  <body>
+    <div class="flex_container_exercise_plan_title">
+      <a href="index.html">
+        <img src="img/left_pointing_arrow.png" width="26.67px" height="21.99px" id="back_button_home_pg">
+      </a>
+      <div class="large_font" id="exer_plan_title">Create your exercise plan</div>
+      <div class="small_font" id="exer_plan_small_title">Select 4 exercises to do today.</div>
+    </div>
+    <!--For all exercise boxes: the only ids that are different are the ones for the number of reps & sets of the workouts. For the format, for all diffferent exercises for sets/reps there is one id for box around the text and then an id for the text, this is to help change the color later on: ("box_sets_" + name + "color") = general format with first part changing to: or "box_reps_", "sets_text_", or "reps_text_" -->
+
+    <!--Bicycle Kicks-->
+    <div class="flex_container_exer" id="container_color_bicycle_kicks" >
+      <img src="img/img_bicycle_kicks.png" id="exer_img" width="310.22px" height="223.96px">
+
+      <div class="flex_container_exer_info">
+        <div class="exer_titles">bicycle kicks</div>
+
+        <div onclick="toggleHelpMenu()">
+          <img src="img/img_info.png" id="info_button" width="40px" height="40px">
+        </div>
+
+        <div class="box_sets" id="box_sets_bicycle_kicks_color">
+          <div class="sets_text" id="sets_text_bicycle_kicks_color">3 sets</div>
+        </div>
+
+        <div class="box_reps" id="box_reps_bicycle_kicks_color">
+          <div class="reps_text" id="reps_text_bicycle_kicks_color">10 reps</div>
+        </div>
       </div>
-        <!--For all exercise boxes: the only ids that are different are the ones for the number of reps & sets of the workouts. For the format, for all diffferent exercises for sets/reps there is one id for box around the text and then an id for the text, this is to help change the color later on: ("box_sets_" + name + "color") = general format with first part changing to: or "box_reps_", "sets_text_", or "reps_text_" -->
 
-        <!--Bicycle Kicks-->
-        <div class="flex_container_exer" id="container_color_bicycle_kicks" >
-            <img src="img\img_bicycle_kicks.png" id="exer_img" width="310.22px" height="223.96px">
+      <img id="button" src="img/img_circle_button_clear.png" width="96px" height="96px">
+    </div>
 
-            <div class="flex_container_exer_info">
-                <div  class="exer_titles">bicycle kicks</div>
-                
-                <div onclick="toggleHelpMenu()">
-                    <img src="img\img_info.png" id="info_button" width="40px" height="40px">
-                </div>
-                
-                <div class="box_sets" id="box_sets_bicycle_kicks_color">
-                    <div class="sets_text" id="sets_text_bicycle_kicks_color">3 sets</div>
-                </div>
+    <!--Running In Place-->
+    <div class="flex_container_exer" id="container_color_running_in_place">
+      <img src="img/running_in_place.png" id="exer_img" width="310.22px" height="223.96px">
 
-                <div class="box_reps" id="box_reps_bicycle_kicks_color">
-                    <div class="reps_text" id="reps_text_bicycle_kicks_color">10 reps</div>
-                </div>
-            </div>
+      <div class="flex_container_exer_info">
+        <div class="exer_titles">running in place</div>
 
-            <img id="button" src="img\img_circle_button_clear.png" width="96px" height="96px">
+        <div onclick="toggleHelpMenu()">
+          <img src="img/img_info.png" id="info_button" width="40px" height="40px">
         </div>
 
-        <!--Running In Place-->
-        <div class="flex_container_exer" id="container_color_running_in_place">
-            <img src="img\running_in_place.png" id="exer_img" width="310.22px" height="223.96px">
-
-            <div class="flex_container_exer_info">
-                <div  class="exer_titles">running in place</div>
-                
-                <div onclick="toggleHelpMenu()">
-                    <img src="img\img_info.png" id="info_button" width="40px" height="40px">
-                </div>
-                
-                <div class="box_sets" id="box_sets_running_in_place_color">
-                    <div class="sets_text" id="sets_text_running_in_place_color">3 sets</div>
-                </div>
-
-                <div class="box_reps" id="box_reps_running_in_place_color">
-                    <div class="reps_text" id="reps_text_running_in_place_color">10 reps</div>
-                </div>
-            </div>
-
-            <img id="button" src="img\img_circle_button_clear.png" width="96px" height="96px">
+        <div class="box_sets" id="box_sets_running_in_place_color">
+          <div class="sets_text" id="sets_text_running_in_place_color">3 sets</div>
         </div>
 
-        <!--Sit Ups-->
-        <div class="flex_container_exer" id="container_color_sit_ups">
-            <img src="img\sit_ups_img.png" id="exer_img" width="310.22px" height="223.96px">
+        <div class="box_reps" id="box_reps_running_in_place_color">
+          <div class="reps_text" id="reps_text_running_in_place_color">10 reps</div>
+        </div>
+      </div>
 
-            <div class="flex_container_exer_info">
-                <div  class="exer_titles">sit-ups</div>
-                
-                <div onclick="toggleHelpMenu()">
-                    <img src="img\img_info.png" id="info_button" width="40px" height="40px">
-                </div>
-                
-                <div class="box_sets" id="box_sets_sit_ups_color">
-                    <div class="sets_text" id="sets_text_sit_ups_color">3 sets</div>
-                </div>
+      <img id="button" src="img/img_circle_button_clear.png" width="96px" height="96px">
+    </div>
 
-                <div class="box_reps" id="box_reps_sit_ups_color">
-                    <div class="reps_text" id="reps_text_sit_ups_color">10 reps</div>
-                </div>
-            </div>
+    <!--Sit Ups-->
+    <div class="flex_container_exer" id="container_color_sit_ups">
+      <img src="img/sit_ups_img.png" id="exer_img" width="310.22px" height="223.96px">
 
-            <img id="button" src="img\img_checkmark_selected.png" width="96px" height="96px">
+      <div class="flex_container_exer_info">
+        <div class="exer_titles">sit-ups</div>
+          <div onclick="toggleHelpMenu()">
+            <img src="img/img_info.png" id="info_button" width="40px" height="40px">
+          </div>
+
+          <div class="box_sets" id="box_sets_sit_ups_color">
+            <div class="sets_text" id="sets_text_sit_ups_color">3 sets</div>
+          </div>
+
+          <div class="box_reps" id="box_reps_sit_ups_color">
+            <div class="reps_text" id="reps_text_sit_ups_color">10 reps</div>
+          </div>
         </div>
 
-       
-        <!--Lunges-->
-        <div class="flex_container_exer" id="container_color_lunges">
-            <img src="img\lunges_img.png" id="exer_img" width="310.22px" height="223.96px">
+        <img id="button" src="img/img_checkmark_selected.png" width="96px" height="96px">
+      </div>
 
-            <div class="flex_container_exer_info">
-                <div  class="exer_titles">lunges</div>
-                
-                <div onclick="toggleHelpMenu()">
-                    <img src="img\img_info.png" id="info_button" width="40px" height="40px">
-                </div>
-                
-                <div class="box_sets" id="box_sets_lunges_color">
-                    <div class="sets_text" id="sets_text_lunges_color">3 sets</div>
-                </div>
+      <!--Lunges-->
+      <div class="flex_container_exer" id="container_color_lunges">
+        <img src="img/lunges_img.png" id="exer_img" width="310.22px" height="223.96px">
 
-                <div class="box_reps" id="box_reps_lunges_color">
-                    <div class="reps_text" id="reps_text_lunges_color">10 reps</div>
-                </div>
+        <div class="flex_container_exer_info">
+          <div class="exer_titles">lunges</div>
+
+          <div onclick="toggleHelpMenu()">
+            <img src="img/img_info.png" id="info_button" width="40px" height="40px">
+          </div>
+
+          <div class="box_sets" id="box_sets_lunges_color">
+            <div class="sets_text" id="sets_text_lunges_color">3 sets</div>
+          </div>
+
+          <div class="box_reps" id="box_reps_lunges_color">
+            <div class="reps_text" id="reps_text_lunges_color">10 reps</div>
+          </div>
+        </div>
+
+        <img id="button" src="img/img_circle_button_clear.png" width="96px" height="96px">
+      </div>
+
+      <!--Stretching-->
+      <div class="flex_container_exer" id="container_color_stretching">
+        <img src="img/stretching_img.png" id="exer_img" width="310.22px" height="223.96px">
+
+        <div class="flex_container_exer_info">
+          <div class="exer_titles">stretching</div>
+            <div onclick="toggleHelpMenu()">
+              <img src="img/img_info.png" id="info_button" width="40px" height="40px">
+            </div>
+            
+            <div class="box_sets" id="box_sets_stretching_color">
+              <div class="sets_text" id="sets_text_stretching_color">3 sets</div>
             </div>
 
-            <img id="button" src="img\img_circle_button_clear.png" width="96px" height="96px">
-        </div>
-        
-        <!--Stretching-->
-        <div class="flex_container_exer" id="container_color_stretching">
-            <img src="img\stretching_img.png" id="exer_img" width="310.22px" height="223.96px">
-
-            <div class="flex_container_exer_info">
-                <div  class="exer_titles">stretching</div>
-                
-                <div onclick="toggleHelpMenu()">
-                    <img src="img\img_info.png" id="info_button" width="40px" height="40px">
-                </div>
-                
-                <div class="box_sets" id="box_sets_stretching_color">
-                    <div class="sets_text" id="sets_text_stretching_color">3 sets</div>
-                </div>
-
-                <div class="box_reps" id="box_reps_stretching_color">
-                    <div class="reps_text" id="reps_text_stretching_color">10 reps</div>
-                </div>
+            <div class="box_reps" id="box_reps_stretching_color">
+              <div class="reps_text" id="reps_text_stretching_color">10 reps</div>
             </div>
+          </div>
 
-            <img id="button" src="img\img_circle_button_clear.png" width="96px" height="96px">
+          <img id="button" src="img/img_circle_button_clear.png" width="96px" height="96px">
         </div>
-       
+      
         <!--code for popup menus for more info (when the "i" is clicked)-->
         <div onclick="toggleHelpMenu()" id="toggle">
-            <div class="flex_container_popup_title">
-                <div class="large_font" id="more_info_exer_stretching">stretching</div>
-                <div onclick="toggleHelpMenu()">
-                    <img id="x_img" src="img\img_x.png" width="29.75px" height="29.75px">
-                </div>
+          <div class="flex_container_popup_title">
+            <div class="large_font" id="more_info_exer_stretching">stretching</div>
+            <div onclick="toggleHelpMenu()">
+              <img id="x_img" src="img/img_x.png" width="29.75px" height="29.75px">
             </div>
-             <video id="tutorial_video" src="img\filler_video.mp4" width="873px" height="575.18px" controls="controls">
+          </div>
+
+          <video id="tutorial_video" src="img/filler_video.mp4" width="873px" height="575.18px" controls="controls">
         </div> 
       </div>
 
@@ -156,12 +156,14 @@
             <img id="x_img" src="img/img_x.png" width="29.75px" height="29.75px">
           </div>
         </div>
+
         <video id="tutorial_video" src="img/filler_video.mp4" width="873px" height="575.18px" controls="controls">
       </div>
+    </div>
 
-      <footer>
-        <button class="small_font" id="default_plan_button" onclick="defaultPlanPageChange()"><p id="font_adjust">Use Default Plan</p></button>
-        <button class="small_font" id="save_plan_button" onclick="savePlanPageChange()"><p id="font_adjust">Save Plan</p></button>
-      </footer>
-    </body>
+    <footer>
+      <button class="small_font" id="default_plan_button" onclick="defaultPlanPageChange()"><p id="font_adjust">Use Default Plan</p></button>
+      <button class="small_font" id="save_plan_button" onclick="savePlanPageChange()"><p id="font_adjust">Save Plan</p></button>
+    </footer>
+  </body>
 </html>

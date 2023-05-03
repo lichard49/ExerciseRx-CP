@@ -24,6 +24,19 @@ class FooterTabs extends HTMLElement {
 }
 
 // Used for Buttons
+// Function for main page to creating exercise plan page
+function homePage() {
+  window.location.href = "index.html";
+}
+
+function alignmentStep2() {
+  window.location.href = "alignment_steps_2.html"
+}
+
+function alignmentStep3() {
+  window.location.href = "tbd.html"
+}
+
 function newPage() {
   window.location.href = "create_exercise_plan.html";
 }
@@ -40,7 +53,7 @@ function savePlanPageChange() {
 
 //Function for starting exercises plan 
 function startPositioningPage() {
-  window.location.href = "tbd.html";
+  window.location.href = "alignment_steps.html";
 }
 
 let info_section_selected = false;
@@ -56,7 +69,7 @@ function toggleHelpMenu() {
 }
 
 let start_exercise_alignment_pop_up_selected = false;
-function toggleAlignment(){
+function toggleAlignment() {
   const img = document.getElementById("toggle_align");
   if (start_exercise_alignment_pop_up_selected == false) {
     start_exercise_alignment_pop_up_selected = true;

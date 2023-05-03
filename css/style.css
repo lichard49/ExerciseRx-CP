@@ -1182,3 +1182,133 @@ the bar for what the user did/accomplished will be "....bar_user_accomp_week_#" 
   border-radius: 48px;
   color: #FFFFFF;
 }
+
+/* Styling for aligment_steps.html page */
+#aligment_steps_title {
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 120%;
+  margin-left: 126px;
+  margin-top: 167px;
+  width: 629px;
+  height: 110px;
+}
+
+.flex_container_alignment_step1 {
+  margin-left: 126px;
+  margin-top: 92px;
+  width: 949px;
+  height: 180px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.3);
+  border-radius: 32px;
+}
+
+.flex_container_alignment_steps {
+  margin-left: 126px;
+  margin-top: 48px;
+  width: 949px;
+  height: 180px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.3);
+  border-radius: 32px;
+}
+
+#img_steps {
+  margin-top: 23px;
+  margin-left: 64px;
+}
+
+#text_steps {
+  width: 475px;
+  height: 46px;
+  font-weight: 500;
+  font-size: 38px;
+  line-height: 120%;
+  margin-left: 154px;
+  margin-top:67px;
+}
+
+.flex_container_buttons {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  width: 1200px;
+  height: 80px;
+  margin-left: 66px;
+  margin-top: 391px;
+}
+
+#cancel_button {
+  width: 137px;
+  height: 80px;
+  color: #9E9E9E;
+}
+
+#next_page_button {
+  width: 137px;
+  height: 80px;
+  background: #683CAE;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.3);
+  border-radius: 48px;
+  margin-left: 810px; 
+  color: #FFFFFF;
+}
+
+/*Styling for aligment_steps_2.html page */
+#aligment_steps_title_2 {
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 120%;
+  margin-left: 126px;
+  margin-top: 167px;
+  width: 722px;
+  height: 110px;
+}
+
+#green_alignment_img {
+  margin-left: 64px;
+  margin-top: 92px;
+}
+
+#red_alignment_img {
+  margin-left: 44px;
+  margin-top: 92px;
+}
+
+.flex_container_warning {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  width: 1072px;
+  height: 184px;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.3);
+  border-radius: 32px;
+  margin-top: 48px;
+  margin-left: 64px;
+}
+
+#warning_img {
+  margin-top: 73px;
+  margin-left: 83.1px;
+}
+
+#warning_text {
+  width: 778px;
+  height: 92px;
+  font-weight: 500;
+  font-size: 38px;
+  line-height: 120%;
+  margin-left: 89.1px;
+  margin-top: 46px;
+}
