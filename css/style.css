@@ -1183,8 +1183,8 @@ the bar for what the user did/accomplished will be "....bar_user_accomp_week_#" 
   color: #FFFFFF;
 }
 
-/*Styling for aligment_steps.html page*/
-#aligment_steps_title{
+/* Styling for aligment_steps.html page */
+#aligment_steps_title {
   font-weight: 600;
   font-size: 46px;
   line-height: 120%;
@@ -1194,7 +1194,7 @@ the bar for what the user did/accomplished will be "....bar_user_accomp_week_#" 
   height: 110px;
 }
 
-.flex_container_alignment_step1{
+.flex_container_alignment_step1 {
   margin-left: 126px;
   margin-top: 92px;
   width: 949px;
@@ -1208,7 +1208,7 @@ the bar for what the user did/accomplished will be "....bar_user_accomp_week_#" 
   border-radius: 32px;
 }
 
-.flex_container_alignment_steps{
+.flex_container_alignment_steps {
   margin-left: 126px;
   margin-top: 48px;
   width: 949px;
@@ -1222,12 +1222,12 @@ the bar for what the user did/accomplished will be "....bar_user_accomp_week_#" 
   border-radius: 32px;
 }
 
-#img_steps{
+#img_steps {
   margin-top: 23px;
   margin-left: 64px;
 }
 
-#text_steps{
+#text_steps {
   width: 475px;
   height: 46px;
   font-weight: 500;
@@ -1237,7 +1237,7 @@ the bar for what the user did/accomplished will be "....bar_user_accomp_week_#" 
   margin-top:67px;
 }
 
-.flex_container_buttons{
+.flex_container_buttons {
   display: flex;
   justify-content: flex-start;
   flex-wrap: nowrap;
@@ -1251,7 +1251,6 @@ the bar for what the user did/accomplished will be "....bar_user_accomp_week_#" 
 #cancel_button {
   width: 137px;
   height: 80px;
-  background: white;
   color: #9E9E9E;
 }
 
@@ -1261,12 +1260,12 @@ the bar for what the user did/accomplished will be "....bar_user_accomp_week_#" 
   background: #683CAE;
   box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.3);
   border-radius: 48px;
-  margin-left: 859px; 
+  margin-left: 810px; 
   color: #FFFFFF;
 }
 
 /*Styling for aligment_steps_2.html page */
-#aligment_steps_title_2{
+#aligment_steps_title_2 {
   font-weight: 600;
   font-size: 46px;
   line-height: 120%;
@@ -1276,17 +1275,17 @@ the bar for what the user did/accomplished will be "....bar_user_accomp_week_#" 
   height: 110px;
 }
 
-#green_alignment_img{
+#green_alignment_img {
   margin-left: 64px;
   margin-top: 92px;
 }
 
-#red_alignment_img{
+#red_alignment_img {
   margin-left: 44px;
   margin-top: 92px;
 }
 
-.flex_container_warning{
+.flex_container_warning {
   display: flex;
   justify-content: flex-start;
   flex-direction: row;
@@ -1299,12 +1298,12 @@ the bar for what the user did/accomplished will be "....bar_user_accomp_week_#" 
   margin-left: 64px;
 }
 
-#warning_img{
+#warning_img {
   margin-top: 73px;
   margin-left: 83.1px;
 }
 
-#warning_text{
+#warning_text {
   width: 778px;
   height: 92px;
   font-weight: 500;
