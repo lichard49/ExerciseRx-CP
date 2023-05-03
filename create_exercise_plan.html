@@ -13,12 +13,11 @@
         <title>Create Exercise Plan - ExerciseRx-CP</title>
     </head>
     <body>
-        <div class="flex_container_exercise_plan_title">
-            <a href="index.html"><img src="img\left_pointing_arrow.png" width="26.67px" height="21.99px" id="back_button_home_pg"></a>
-            <div class="large_font" id="exer_plan_title">Create your exercise plan</div>
-            <div class="small_font" id="exer_plan_small_title">Select 4 exercises to do today.</div>
-        </div>
-
+      <div class="flex_container_exercise_plan_title">
+        <a href="index.html"><img src="img/left_pointing_arrow.png" width="26.67px" height="21.99px" id="back_button_home_pg"></a>
+        <div class="large_font" id="exer_plan_title">Create your exercise plan</div>
+        <div class="small_font" id="exer_plan_small_title">Select 4 exercises to do today.</div>
+      </div>
         <!--For all exercise boxes: the only ids that are different are the ones for the number of reps & sets of the workouts. For the format, for all diffferent exercises for sets/reps there is one id for box around the text and then an id for the text, this is to help change the color later on: ("box_sets_" + name + "color") = general format with first part changing to: or "box_reps_", "sets_text_", or "reps_text_" -->
 
         <!--Bicycle Kicks-->
@@ -147,11 +146,22 @@
             </div>
              <video id="tutorial_video" src="img\filler_video.mp4" width="873px" height="575.18px" controls="controls">
         </div> 
+      </div>
 
-        <!--Code for navigation buttons at the end of the page-->
-        <footer>
-            <button class="small_font" id="default_plan_button" onclick="defaultPlanPageChange()"><p id="font_adjust">Use Default Plan</p></button>
-            <button class="small_font" id="save_plan_button" onclick="savePlanPageChange()"><p id="font_adjust">Save Plan</p></button>
-        </footer>
+      <!-- code for popup menus for more info (when the "i" is clicked) -->
+      <div onclick="toggle()" id="toggle">
+        <div class="flex_container_popup_title">
+          <div class="large_font" id="more_info_exer_stretching">stretching</div>
+          <div onclick="toggle()">
+            <img id="x_img" src="img/img_x.png" width="29.75px" height="29.75px">
+          </div>
+        </div>
+        <video id="tutorial_video" src="img/filler_video.mp4" width="873px" height="575.18px" controls="controls">
+      </div>
+
+      <footer>
+        <button class="small_font" id="default_plan_button" onclick="defaultPlanPageChange()"><p id="font_adjust">Use Default Plan</p></button>
+        <button class="small_font" id="save_plan_button" onclick="savePlanPageChange()"><p id="font_adjust">Save Plan</p></button>
+      </footer>
     </body>
 </html>
